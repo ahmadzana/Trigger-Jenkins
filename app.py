@@ -16,8 +16,7 @@ def triger():
         callback = jenkins_obj.build_job(NAME_OF_JOB, PARAMETERS, TOKEN)
         info = f"Jenkins Build URL: {callback['url']}"
         duration=f"duration: {callback['duration']}"
-        return {'info':info,'build_URL':duration,'status':'success'}
+        return {'info':info,'duration':duration,'status':'success'}
     else :
       return {'reason':'not valid token','status':'failed'}
-
 
