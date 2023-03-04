@@ -1,0 +1,15 @@
+version: '3'
+services:
+ triger-jenkins:
+  container_name: trigger-jobs
+  build: .
+  environment:
+   - TOKEN=anystring
+   - JENKINS_URL=http://127.0.0.1:8080
+   - JENKINS_USERNAME=admin
+   - JENKINS_PASSWORD=admin
+   - NAME_OF_JOB=TESTING
+   - PARAMETERS=
+  ports:
+   - 5000:5000
+  network_mode: host
