@@ -92,4 +92,4 @@ location /buildme {
 
 
 
-a get request to url https://www.example.com/buildme?token=yourtoken will trigger the job to build the app
+a get request to url https://www.example.com/buildme?token=yourtoken will trigger the job to build the app.
