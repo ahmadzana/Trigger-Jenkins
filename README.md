@@ -32,9 +32,11 @@ If your jenkins is in a separate  server where you want to host this you can add
 
 
 
+
 Tip: If your jenkins is in another server from Jenkins-Trigger you can still access it by adding extra_hosts in the docker-compose.yaml pointing to the server ip address 
 
 example: 
+
 
 ```yaml
    extra_hosts:
@@ -63,7 +65,7 @@ add the TOKEN you added in the environment variable
 
 http://127.0.0.1:5000/builld?token=anystring
 
-| info     | "Jenkins Build URL: https://jenkins.cardhouzz.online/job/TESTING/44/" |
+| info     | "Jenkins Build URL: https://jenkins.example.com/job/TESTING/44/" |
 | -------- | ------------------------------------------------------------ |
 | duration | 450                                                          |
 | status   | "success"                                                    |
@@ -92,4 +94,4 @@ location /buildme {
 
 
 
-a get request to url https://www.example.com/buildme?token=yourtoken will trigger the job to build the app
+a get request to url https://www.example.com/buildme?token=yourtoken will trigger the job to build the app.
