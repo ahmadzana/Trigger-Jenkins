@@ -32,6 +32,7 @@ If your jenkins is in a separate  server where you want to host this you can add
 
 
 
+
 Tip: If your jenkins is in another server from Jenkins-Trigger you can still access it by adding extra_hosts in the docker-compose.yaml pointing to the server ip address 
 
 example: 
