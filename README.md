@@ -28,7 +28,7 @@ The **TOKEN** variable, which may be a randomly generated string, serves as a pa
 
 The **JENKINS_URL** is the URL of the jenkins server running 
 
-If your jenkins is in a separate  server where you want to host this you can add  to the docker-compose and use the private dns in the JENKINS_URL
+If your jenkins is in a separate  server where you want to host this you can add  to the docker-compose and use the private dns in the JENKINS_URL.
 
 
 
