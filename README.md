@@ -36,6 +36,7 @@ Tip: If your jenkins is in another server from Jenkins-Trigger you can still acc
 
 example: 
 
+
 ```yaml
    extra_hosts:
      - "anyhostname.com:162.242.195.82" #host and ip
