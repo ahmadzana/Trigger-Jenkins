@@ -63,7 +63,7 @@ add the TOKEN you added in the environment variable
 
 http://127.0.0.1:5000/builld?token=anystring
 
-| info     | "Jenkins Build URL: https://jenkins.cardhouzz.online/job/TESTING/44/" |
+| info     | "Jenkins Build URL: http://127.0.0.1:5000/job/TESTING/44/" |
 | -------- | ------------------------------------------------------------ |
 | duration | 450                                                          |
 | status   | "success"                                                    |
